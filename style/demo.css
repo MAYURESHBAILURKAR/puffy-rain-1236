@@ -1,0 +1,47 @@
+.r1{
+    border: 1px solid red;
+    height: 950px;
+    width: 50%;
+    background-color:whitesmoke;
+     margin-left: 50%;
+}
+#name{
+    height:40px;
+    width: 600px;
+}
+#business{
+    height:40px;
+    width: 600px;
+}
+#button{
+    height:40px;
+    width: 600px;
+    cursor: pointer;
+    background:blue;
+    color: aliceblue;
+
+}
+.inside{
+    display: flex;
+    gap: 20px;
+}
+#f1{
+    /* background-color:  rgb(241, 241, 209); */
+    background-image: linear-gradient(45deg,#fffed8 20%,#ffeecc 80%);
+    /* background: radial-gradient(50% 50% at 50% 50%,rgba(255,111,80,.3) 0,rgba(255,190,92,.3) 50%,rgba(255,238,176,.3) 100%);
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(255, 111, 80, 0.3) 0px, rgba(255, 190, 92, 0.3) 50%, rgba(255, 238, 176, 0.3) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial; */
+
+    border: 1 px solid blue;
+    height: 950px;
+    width: 50%;
+    margin-right: 50%;
+}
