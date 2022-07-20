@@ -1,0 +1,137 @@
+/* body{
+    
+} */
+
+#head{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+#right,#left{
+    /* border: 1px solid; */
+    width: 50%;
+}
+
+#left>h2{
+font-size: 52px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#left>p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+
+#right>#img{
+    width: 100%;
+}
+
+#middle{
+    width: 70%;
+    margin: auto;
+    padding: 100px 0px 20px 0px;
+}
+#middle>.h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    
+}
+
+#logo{
+    width: 85px;
+    height: 45px;
+    /* border: 1px solid; */
+}
+#logos{
+    padding: 20px 0px 20px 0px;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+gap: 30px;
+}
+
+#Eimg{
+    width: 200px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.container{
+     /* width: 800px; */
+    /*height: 70vh; */
+/* background-color: rgb(250, 230, 233); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+} 
+
+.swiper{
+    width: 50%;
+    height: fit-content;
+}
+
+.swiper-wrapper{
+display: flex;
+}
+
+
+.swiper-slide img {
+    width: 450px;
+    height: 350px;
+    display: flex;
+}
+
+.swiper-slide {
+    background-color: rgb(250, 230, 233);
+    padding: 50px ;
+   width: 800px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.reveiw{
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+
+.reveiw>p{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(119, 117, 117);
+    letter-spacing: 2px;
+}
+
+.reveiw>strong{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #000;
+    letter-spacing: 2px;
+}
+.reveiw>span{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.reveiw>#com{ 
+    width: 200px;
+    height: 100px;
+    /* border: 1px solid; */
+}
+
+#next{
+  padding: 10px ;
+    background-color: #000;
+    border: 1px solid;
+    color: aliceblue;
+}
