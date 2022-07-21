@@ -1,0 +1,152 @@
+.r1{
+    /* border: 1px solid red; */
+    height: 950px;
+    width: 50%;
+    background-color:whitesmoke;
+     margin-left: 50%;
+}
+#name{
+    height:55px;
+    width: 540px;
+    margin-left: 180px;
+    border-radius: 15px;
+    background-color: azure;
+    font-size: large;
+}
+#o1{
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 800;
+   
+}
+#phone{
+  height: 55px;
+  width: 380px;
+  border-radius: 15px;
+  margin-top: -2px;
+  font-size: larger;
+  font-weight: 800;
+}
+#business{
+  height:55px;
+  width: 540px;
+  margin-left: 12px;
+  border-radius: 15px;
+  background-color: azure;
+  font-size: large;
+  margin-bottom: 60px;
+}
+
+
+#button{
+  height: 85px;
+  width: 560px;
+  
+  border-radius: 15px;
+  background-color:rgb(13, 13, 75);
+  color: white;
+  
+  margin-right: 10px;
+  font-size: large;
+  font-weight: 900;
+  cursor: pointer;
+
+
+}
+/* .swiper-slide{
+  width: 150px;
+  height: 50px;
+  border: 1px solid red;
+} */
+#button:hover{
+  background-color: blue;
+}
+
+.inside{
+    display: flex;
+    gap: 20px;
+     
+}
+ 
+.container{
+   margin-top: -954px;
+   /* border: 1px solid blue; */
+   height: 950px;
+   width: 50%;
+   background-image: linear-gradient(45deg,#fffed8 20%,#ffeecc 80%);
+   display: block;
+}
+.reveiw{
+    height: auto;
+    width: 550px;
+    margin-left: 180px;
+    margin-top: 5px;
+}
+  .z1>img{
+    height: 80px;
+    width: 65px;
+    margin-left: 180px;
+    margin-top: 150px;
+  }
+  .reveiw>img{
+    height: 120px;
+    width: 120px;
+    margin-top: 40px;
+
+  }
+   
+  .g8{
+    margin-left: 100px;
+    margin-top: -74px;
+  }
+  .g9{
+    margin-left: 200px;
+    margin-top: -74px;
+  }
+  .g10{
+    margin-left: 300px;
+    margin-top: -74px;
+  }
+  .g11{
+    margin-left: 400px;
+    margin-top: -74px;
+    
+   
+  }
+  .c1>img{
+    margin-left: 350px;
+    height: 80px;
+    /* width: 100px; */
+  }
+  .c2{
+    
+     margin-left: 180px;
+    /* color: blueviolet; */
+    height: auto;
+    width: 55%;
+    font-size: 25px;
+  
+    font-weight: 400;
+    text-align: center;
+     
+  }
+  .c3{
+    margin-left: 180px;
+    /* color: blueviolet; */
+    height: auto;
+    width: 55%;
+    font-size: 27px;
+    text-align: center;
+  }
+  .c4{
+    margin-left: 170px;
+  }
+  .c5{
+    margin-left: 170px;
+  }
+  .c7{
+    margin-left: 170px;
+  }
+   
