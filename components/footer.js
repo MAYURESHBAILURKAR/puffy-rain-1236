@@ -14,7 +14,7 @@ let footer=()=>{
             </div>
         </div>
         <div class="footer-container">
-            <div style="line-height: 40px;width:25%;">
+            <div style="line-height: 40px;">
                 <ul>
                     <li><h3>Product</h3></li>
                     <li>Manage Shared Inboxes</li>
@@ -27,7 +27,7 @@ let footer=()=>{
                     <li>Time Saved with Hiver</li>
                 </ul>
             </div>
-            <div style="width:25%;">
+            <div>
                 <ul>
                     <li><h3>Top Resources</h3></li>
                     <li>Blog</li>
@@ -39,7 +39,7 @@ let footer=()=>{
                     <li>All resources</li>
                 </ul>
             </div>
-            <div style="width:25%;">
+            <div>
                 <ul>
                     <li><h3>Try Hiver</h3></li>
                     <li>Our Customers</li>
@@ -50,7 +50,7 @@ let footer=()=>{
                     <li>Product Updates</li>
                 </ul>
             </div>
-            <div style="width:25%;">
+            <div>
                 <ul>
                     <li><h3>Company</h3></li>
                     <li>About Us</li>
@@ -62,7 +62,7 @@ let footer=()=>{
                     <li>Meet the Support Team</li>
                 </ul>
             </div>
-            <div style="width:25%;">
+            <div>
                 <ul>
                     <li><h3>How We Compare</h3></li>
                     <div class="compare-logo"> <img src="https://images.hiverhq.com/images/new-landing-2022/zendesk.svg" alt=""><li> Zendesk</li></div>
