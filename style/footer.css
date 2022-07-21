@@ -45,6 +45,11 @@
     gap: 5px;
     align-items:center;
 }
+.zendex-logo{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    border:1px solid;
+}
 .fotter-address{
     display: flex;
     justify-content: space-between;
