@@ -4,21 +4,42 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .container{
-  padding: 0 7rem;
-  /* width: 100%; */
+  /* padding: 0 7rem; */
+  width: 100%;
   height: 70px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
+  background-color: white;
 }
 .navbar{
-   
-    width: 100%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1200px;
     height: 70px;
     font-size: 16px;
     font-weight: 600;  
-    position:fixed; 
-    /* padding: 1rem 0; */
-    
+    margin: auto;  
+    background-color: white;
+}
+/* Dropdown Button */
+.dropbtn {   
+  font-size: 16px;
+  /* width: 70%; */
+  margin-right: 60px;
+  display: flex;
+  /* justify-content: space-between; */
+  /* border: 1px solid white; */
+}
+.dropbtn1{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.dropbtn2{
+  font-size: 16px;
+  display: flex;
+  margin-right: 60px;
 }
 .navbar h3{
   color: black;
@@ -30,12 +51,13 @@ button{
     background-color: rgb(15,21,52);
     color: white;
 }
-.flex{
+.main-category{
+    height: 100%;
+    width: 65%;
     display: flex;
     align-items: center;
-}
-.main-category{
-    margin-left: 150px;      
+    margin-left: 100px;
+    background-color: white;
 }
 li{
     list-style: none;
@@ -43,16 +65,11 @@ li{
 }
 .dropSub{
     font-size: 14px;
-    padding: 1rem;
+    display: flex;
     align-items: flex-start;
     width: 700px;
     font-weight: 400;
 }
-
-/* Dropdown Button */
-.dropbtn {   
-    font-size: 16px;
-  }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -60,13 +77,13 @@ li{
     display: inline-block;
     width: auto;
   }
-  
+
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
     position: absolute;
     left: -200;
-    top:48;
+    top:48px;
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
