@@ -65,7 +65,7 @@ let footer=()=>{
             <div>
                 <ul>
                     <li><h3>How We Compare</h3></li>
-                    <div class="compare-logo" style="margin-top: 10px;margin-bottom: 10px;"> <img src="https://images.hiverhq.com/images/new-landing-2022/zendesk.svg" alt=""><li></li> Zendesk</li></div>
+                    <div class="compare-logo"> <img src="https://images.hiverhq.com/images/new-landing-2022/zendesk.svg" alt=""><li> Zendesk</li></div>
                     <div class="compare-logo"><img src="https://images.hiverhq.com/images/zendesk-hiver/help-scout.png" alt=""><li>  Help Scout</li></div>
                     <div class="compare-logo"><img src="https://images.hiverhq.com/images/zendesk-hiver/freshdesk.svg" alt=""><li>  Freshdesk</li></div>
                     <div class="compare-logo"><img src="https://images.hiverhq.com/images/zendesk-hiver/zohodesk.svg" alt=""><li>  Zoho Desk</li></div>

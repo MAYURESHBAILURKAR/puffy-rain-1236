@@ -1,13 +1,17 @@
 let navbar=()=>{
-   return `<div class="StickNav">
-   <div class="navbar flex">
-       <div style="margin-left: 100px;"><img src="https://images.hiverhq.com/images/hiver-logo/hiverBlackLogo.svg" height="70%" width="80%" alt=""></div>
+   return `
+   <div class="container">
+    <div class="navbar">
+       <div class="dropbtn1"><img src="https://images.hiverhq.com/images/hiver-logo/hiverBlackLogo.svg" height="70%" width="80%" alt=""></div>
        <div class="main-category">
-           <ul     class="flex">
+       
+
+           <!-- product dropdown -->
+
                <div class="dropdown">
-                   <div class="dropbtn">Product <span><i class="fa-solid fa-caret-down"></i></span></div>
+                   <div class="dropbtn2">Product</div>
                    <div class="dropdown-content">
-                       <div class="flex dropSub">
+                       <div class="dropSub">
                            <div class="prodCol1">
                                <ul>
                                    <a href="#"><h3>Features</h3></a>
@@ -69,15 +73,18 @@ let navbar=()=>{
                        </div>
                      </div>
                </div>
-               <div style="margin-left: 50px;">Customers</div>
-               <div style="margin-left: 50px;">Pricing</div>
+
+               <!-- customer/pricing -->
+
+               <div class="dropbtn">Customers</div>
+               <div class="dropbtn">Pricing</div>
 
                <!-- Resources dropdown -->
 
                <div class="dropdown">
-                   <div class="dropbtn" style="margin-left: 50px;" >Resources <span><i class="fa-solid fa-caret-down"></i></span></div>
+                   <div class="dropbtn" >Resources</div>
                    <div class="dropdown-content">
-                       <div class="flex dropSub">
+                       <div class="dropSub">
                            <div class="prodCol1">
                                <ul>
                                    <a href="#"><h3>Blogs</h3></a>
@@ -121,11 +128,11 @@ let navbar=()=>{
                    </div>
                </div>                          
                
-               <div style="margin-left: 50px;">Request a Demo</div>
+               <div class="dropbtn">Request a Demo</div>
            </ul> 
        </div>
-       <div>
-           <button style="margin-left: 70px;">GET HIVER FREE</button>
+       <div class="dropbtn1">
+           <button>GET HIVER FREE</button>
        </div>
    </div>
 </div>`;
