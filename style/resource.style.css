@@ -1,0 +1,461 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+
+#main{
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    
+
+   
+    
+}
+
+
+#submain-1{
+    margin-top: 50px;
+    width: 100%;
+   
+    background-image: linear-gradient(to right, #fff4f6, #fff4f6,#fff4f6,#fff4f6);
+    
+
+}
+#submain-2{
+    margin-top: 20px;
+    width: 100%;
+    
+   
+    background-image: linear-gradient(to right, #fff4f6, #fff4f6,#fff4f6,#fff4f6);
+    /* border: 1px solid black; */
+
+}
+#submain-3{
+    margin-top: 20px;
+    width: 100%;
+   
+    background-image: linear-gradient(to right, #fff4f6, #fff4f6,#fff4f6,#fff4f6);
+    /* border: 1px solid black; */
+
+}
+#submain-4{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 100%;
+   
+    background-image: linear-gradient(to right, #fff4f6, #fff4f6,#fff4f6,#fff4f6);
+    /* border: 1px solid black; */
+
+}
+.main{
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    background-color: #201f37;
+    background-image: linear-gradient(to right, #706e85, #4c4a68, #201f37, #201f37);
+    color: white;
+    border: 1px solid blue;
+    
+    
+}
+
+#main-2{
+    margin: auto;
+    width: 80%;
+    
+    display: flex;
+    align-items: center;
+   
+   
+     
+}
+#main-item{
+    width: 55%;
+    margin: auto;
+}
+#main-img{
+    margin: auto;
+    width: 45%;
+    height: 100%;
+    
+}
+#main-item>h1{
+    
+    font-size: 42px;
+    font-weight: bold;
+}
+#main-img>img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+
+}
+#main-item>p{
+    margin-top: 10px;
+    font-size: 20px;
+    
+
+}
+
+#main-item1{
+    width: 70%;
+    margin: auto;
+}
+#main-img1{
+    margin: auto;
+    
+    width: 40%;
+    height: 100%;
+    
+    
+}
+#main-img1>img{
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 100%;
+    
+    
+
+}
+#navbar1{
+    margin-top: -50px;
+}
+#main-item1>h1{
+    margin: auto;
+    margin-left: 30px;
+    
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+/* input button */
+
+
+.input-group {
+margin-left: 30px;
+margin-top: 20px;
+
+display: flex;
+align-items: center;
+}
+
+.input {
+min-height: 50px;
+width: 400px;
+padding: 0 1rem;
+color: #fff;
+font-size: 15px;
+border: 1px solid #f8aa00;
+border-radius: 6px 0 0 6px;
+background-color: transparent;
+}
+
+.button--submit {
+min-height: 50px;
+width: 150px;
+padding: .7em 1em;
+border: none;
+border-radius: 0 6px 6px 0;
+background-color: hsl(49, 96%, 51%);
+color: black;
+font-size: 15px;
+cursor: pointer;
+transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+background-color: white;
+color: black;
+}
+
+.input:focus, .input:focus-visible {
+border-color: #f8aa00;
+outline: none;
+}
+
+
+
+/* Articles div */
+
+
+#articles{
+width: 80%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: auto;
+gap: 10px;
+
+
+
+}
+#card-1{
+
+background-color: #e8ffe8;
+
+}
+#card-2{
+
+background-color: #f3f8ff;
+}
+#card-3{
+
+background-color: #fffbe8;
+}
+
+#card-1:hover{
+margin-top: -5px;
+
+}
+#card-2:hover{
+margin-top: -5px;
+
+}
+#card-3:hover{
+margin-top: -5px;
+
+}
+
+
+#card-1>img{
+
+width: 100%;
+height: 250px;
+}
+#card-2>img{
+
+width: 100%;
+height: 250px;
+}
+#card-3>img{
+
+width: 100%;
+height: 250px;
+}
+
+img+p{
+padding: 10px;
+font-size: 20px;
+color: gray;
+margin-top: 5px;
+margin-bottom: 10px;
+font-weight: lighter;
+}
+img+p+h2{
+padding: 5px;
+font-size: 35px;
+font-weight: lighter;
+}
+img+p+h2+p{
+padding: 5px;
+font-size: 20px;
+font-weight: lighter;
+margin-top: 5px;
+margin-bottom: 10px;
+
+
+}
+/* read blog*/
+.cta {
+position: relative;
+margin: auto;
+padding: 12px 18px;
+transition: all 0.2s ease;
+border: none;
+background: none;
+}
+
+.cta:before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+display: block;
+border-radius: 50px;
+background: #b1dae7;
+width: 45px;
+height: 45px;
+transition: all 0.3s ease;
+}
+
+.cta span {
+position: relative;
+font-family: "Ubuntu", sans-serif;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0.05em;
+color: #234567;
+}
+
+.cta svg {
+position: relative;
+top: 0;
+margin-left: 10px;
+fill: none;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke: #234567;
+stroke-width: 2;
+transform: translateX(-5px);
+transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+width: 100%;
+background: #b1dae7;
+}
+
+.cta:hover svg {
+transform: translateX(0);
+}
+
+.cta:active {
+transform: scale(0.95);
+}
+
+#rele-art{
+margin: auto;
+text-align: center;
+font-size: 30px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+
+
+#main-list{
+width: 30%;
+position: fixed;
+
+margin-top: -7550px;
+position: sticky;
+/* border: 1px solid black; */
+
+}
+
+#main-blog{
+width: 70%;
+}
+#main-blog>p{
+font-size: 20px;
+margin-top: 50px;
+}
+#main-blog>h1{
+font-size: 43px;
+font-weight: bolder;
+margin-top: 50px;
+}
+#main-blog>h2{
+font-size: 35px;
+font-weight: bolder;
+margin-top: 50px;
+}
+#main-blog>h3{
+margin-top: 50px;
+font-size: 25px;
+font-weight: bolder;
+
+}
+span{
+font-style: italic;
+}
+
+
+
+#main-list-1{
+margin-left: 10px;
+padding: 5px;
+}
+#main-list-1>p{
+font-size: 20px;
+margin-top: 20px;
+color: gray;
+}
+#main-list-2{
+
+padding: 5px;
+margin: auto;
+margin-top: 70px;
+text-align: left;
+margin-left: 10px;
+color: gray;
+
+}
+#icon{
+margin-top: 20px;
+display: flex;
+gap: 20px;
+}
+.img1{
+margin-top: 30px;
+}
+.img1>img{
+width: 100%;
+}
+#btn{
+margin-top: 50px;
+margin-bottom: 20px;
+
+display: flex;
+
+gap: 10px;
+}
+/* #anvy{
+    height: 95px;
+    
+    background-color: white;
+    color: white;
+    
+} */
+
+/* From uiverse.io by @hannahyockel */
+#btn>button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 38px;
+border-radius: 16px;
+border: 1px solid transparent;
+color: black;
+border: 1px solid #1DC9A0;
+background-color: #87c2b4;
+
+font-size: 14px;
+letter-spacing: 1px;
+transition: all 0.15s linear;
+}
+
+#btn>button:hover {
+background-color: rgba(162, 209, 198, 0.08);
+border-color: #1DC9A0;
+color: #1DC9A0;
+transform: translateY(-5px) scale(1.05);
+}
+
+#btn>button:active {
+background-color: transparent;
+border-color: #1DC9A0;
+color: #1DC9A0;
+transform: translateY(5px) scale(0.95);
+}
+
+#btn>button:disabled {
+background-color: rgba(255, 255, 255, 0.16);
+color: #8E8E93;
+border-color: #8E8E93;
+}
+
