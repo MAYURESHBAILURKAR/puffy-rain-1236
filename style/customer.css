@@ -1,3 +1,7 @@
+body{
+     background-image: url("https://wallpaper.dog/large/11032595.png");
+    background-repeat: no-repeat;  
+}
 
 #head{
     display: flex;
