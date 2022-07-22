@@ -15,8 +15,8 @@ let navbar=()=>{
                            <div class="prodCol1">
                                <ul>
                                    <a href="#"><h3>Features</h3></a>
-                                   <a href="#">Email Delegation</a>
-                                   <a href="#">Email Tags</a>
+                                   <a href="./email_delegation.html">Email Delegation</a>
+                                   <a href="./email_tags.html">Email Tags</a>
                                    <a href="#">Email Notes</a>
                                    <a href="#">Collision Alerts</a>
                                    <a href="#">Email Templates</a>
@@ -61,8 +61,8 @@ let navbar=()=>{
                                    <br>
                                    <a href="#"><h3>Industries</h3></a>
                                    <a href="#">Logistics</a>
-                                   <a href="#">Real Estate</a>
-                                   <a href="#">Travel</a>
+                                   <a href="./realEstate.html">Real Estate</a>
+                                   <a href="./travel.html">Travel</a>
                                    <a href="#">Manufacturing</a>
                                    <a href="#">Education</a>
                                    <a href="#">Non-profits</a>
