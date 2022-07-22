@@ -76,8 +76,8 @@ let navbar=()=>{
 
                <!-- customer/pricing -->
 
-               <div class="dropbtn">Customers</div>
-               <div class="dropbtn">Pricing</div>
+               <div class="newbtn">Customers</div>
+               <div class="newbtn">Pricing</div>
 
                <!-- Resources dropdown -->
 
@@ -128,7 +128,7 @@ let navbar=()=>{
                    </div>
                </div>                          
                
-               <div class="dropbtn">Request a Demo</div>
+               <div class="newbtn">Request a Demo</div>
            </ul> 
        </div>
        <div class="dropbtn1">
