@@ -1,0 +1,416 @@
+
+#head{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 100px 0px 0px 0px;
+}
+#right,#left,#play{
+    /* border: 1px solid; */
+    width: 50%;
+
+}
+
+#left>h2{
+font-size: 52px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#left>p{
+    margin-top: 40px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+
+#right>#img{
+    width: 100%;
+    z-index: -1;
+}
+#space{
+    height: 70px;
+}
+
+#middle{
+    width: 70%;
+    margin: auto;
+    padding: 100px 0px 20px 0px;
+}
+#middle>.h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    
+}
+
+#logo{
+    width: 85px;
+    height: 45px;
+    /* border: 1px solid; */
+    margin: auto;
+}
+#logos{
+    padding: 20px 0px 20px 0px;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+gap: 30px;
+/* border: 1px solid; */
+}
+
+#Eimg{
+    width: 200px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.merge{
+     /* width: 800px; */
+    /*height: 70vh; */
+/* background-color: rgb(250, 230, 233); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+
+} 
+
+.swiper{
+    width: 50%;
+    height: fit-content;
+  
+}
+
+.swiper-wrapper{
+display: flex;
+}
+
+
+.swiper-slide img {
+    width: 450px;
+    height: 350px;
+    display: flex;
+   
+}
+
+.swiper-slide {
+    background-color: rgb(250, 230, 233);
+    padding: 50px ;
+   width: 800px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
+}
+
+.reveiw{
+   margin-left: 20px;
+   margin-right: 20px;
+  
+}
+
+
+.reveiw>p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(119, 117, 117);
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.reveiw>strong{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #000;
+    letter-spacing: 2px;
+}
+.reveiw>span{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.reveiw>#com{ 
+    width: 200px;
+    height: 100px;
+    /* border: 1px solid; */
+}
+
+#next{
+  /* padding: 10px ; */
+    /* background-color: #000; */
+    /* border: 1px solid; */
+    color: rgb(3, 66, 122);
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+/* .......con */
+
+#con{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid; */
+}
+
+
+.univers{
+    height: 250px;
+    width: 80%;
+    /* border: 1px solid; */
+    margin: auto;
+}
+#com{
+    margin-bottom: 20px;
+}
+.ht{
+    width: 60%;
+    margin: auto;
+}
+#blue{
+   padding: 100px 0px 100px 0;
+    background-image: url("https://www.xmple.com/wallpaper/linear-blue-gradient-black-2200x2480-c2-03040e-080a51-a-315-f-14.svg");
+    border: 1px solid ;
+    /* margin-top: 50%; */
+  
+    
+}
+
+.teal{
+    width: 60%;
+    color: white;
+    margin: auto;
+    display: flex;
+}
+.column{
+   margin-left: 50px;
+   /* border: 1px solid; */
+}
+.hi{
+    margin-left: 20px;
+   
+}
+#b{
+    width: 150px;
+}
+#b:hover{
+    width: 203px;
+    
+  }
+  
+  
+.reason{
+    margin-top: 50px;
+   text-align: center;
+}
+
+#play{
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    position:absolute;
+    top:37%;
+    left: 18%;
+    border: none;
+   
+}
+/* #img{
+position: relative;
+top: 0;
+left: 0;
+} */
+
+
+.scrolling { 
+    margin-top: 100px; 
+    animation-iteration-count: infinite;
+    flex-shrink: 0;
+    animation: scrolling 20s linear infinite;
+
+}
+
+@keyframes scrolling {
+     /* from { transform: translateX(0px); } */
+   /* 65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }     */
+    0% {transform: translateX(80vw);}
+   100% {transform: translateX(-0vw);}
+}
+
+.rolling{
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 160px;
+    background-color: rgb(247, 224, 228);
+    border-radius: 8px;
+    gap: 5px;
+    padding: 5px 1px 0 0;
+    font-size: 13px;
+     
+}
+.scrolling,.Revscrolling{
+    display: flex;
+    gap: 20px;
+  
+
+}
+
+#k{
+    width: 100px;
+    height: 100px;
+}
+#best{
+    width: 80px;
+    height: 120px;
+    margin-top: 25px;
+}
+.point{
+    margin: auto;
+    width: 90px;
+    height: 60px;
+}
+
+
+
+.Revscrolling {  
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+    flex-shrink: 0;
+    animation: scrolling 20s reverse infinite;
+
+}
+
+@keyframes Revscrolling {
+     /* from { transform: translateX(0px); } */
+   /* 65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }     */
+    0% {transform: translateX(80vw);}
+   100% {transform: translateX(-0vw);}
+}
+.Rrolling{
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 160px;
+    background-color: rgb(219, 243, 252);
+    border-radius: 8px;
+    gap: 5px;
+    padding: 5px 1px 0 0;
+    font-size: 13px;
+  
+}
+
+
+
+.main-card{
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    
+    background-color: #ffd7a3;
+    border: 1px solid #ffd7a3;
+}
+#card-submain{
+    margin: auto;
+    margin-top: 70px;
+    width: 60%;
+    height: 500px;
+    background-color: #0d1333;
+    display: flex;
+    gap: 20px;
+}
+#card-submain-1{
+    width: 65%;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+    color: white;
+    
+}
+#card-submain-1>h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+#card-submain-1>h2{
+    margin-top: 15px;
+    
+}
+#get-btn{
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: #f6c035;
+    border-radius: 8px;
+    color: #000;
+}
+#get-btn:hover{
+    background-color: #e9c66e;
+}
+
+#card-submain-img{
+    width: 30%;
+    padding: 10px;
+    
+}
+#card-submain-img>img{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    
+}
+#pricing{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    margin-top: 10px;
+   
+    
+}
+.main-price{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    gap: 5px;
+}
+#lite{
+    width: 33%;
+    border: 1px solid black;
+}
+#elite{
+    width: 33%;
+    border: 1px solid black;
+}
+#pro{
+    width: 33%;
+    border: 1px solid black;
+}
+
+
+/* <div class="main-card">
+    <div id="card-submain">
+        <div id="card-submain-1">
+            <h1>Join the <span>8000+ teams</span> that are using Hiver to deliver a great customer experience</h1>
+            <h2>* 7-day free trial | No credit card required</h2>
+            <button id="get-btn">LET'S GET STARTED</button>
+        </div>
+        <div id="card-submain-img"><img src="https://images.hiverhq.com/images/new-landing-2022/homepage/CTA-image.png" alt=""></div>
+    </div>
+</div> */
+
+
+
