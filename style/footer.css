@@ -86,8 +86,10 @@ h3{
 }
 li:hover{
    color: grey;
+   cursor: pointer;
 }
 p:hover{
     color: grey;
+    cursor: pointer;
 }
 

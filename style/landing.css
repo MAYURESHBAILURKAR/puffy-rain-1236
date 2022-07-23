@@ -212,6 +212,7 @@ ul,li{
     padding: 30px;
 }
 .bottom-col h3{
+    color:black;
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 25px;
@@ -239,7 +240,7 @@ ul,li{
 }
 .polygon-block{
     margin: 0px 83px ;
-    padding-top: 100px;
+    padding-top: 150px;
     display: flex;
     padding-bottom: 100px;
     /* height: 1300px; */
@@ -345,7 +346,7 @@ color: white;
         min-width: 100%;
         min-height: 250px;
         height: auto;
-        /* padding: 0% 5%; */
+        padding-top: 50px;
       }
 
       .carousel-contain {
@@ -367,6 +368,7 @@ color: white;
     color: #201F37;
 }
 .carousel-data h3{
+    color: #201F37;
     font-size: 24px;
 }
 .case{

@@ -2,7 +2,7 @@ let navbar=()=>{
    return `
    <div class="container">
     <div class="navbar">
-       <div class="dropbtn1"><img src="https://images.hiverhq.com/images/hiver-logo/hiverBlackLogo.svg" height="70%" width="80%" alt=""></div>
+       <div class="dropbtn1"><a href="./index.html"><img src="https://images.hiverhq.com/images/hiver-logo/hiverBlackLogo.svg" height="70%" width="80%" alt=""></a></div>
        <div class="main-category">
        
 
@@ -15,8 +15,8 @@ let navbar=()=>{
                            <div class="prodCol1">
                                <ul>
                                    <a href="#"><h3>Features</h3></a>
-                                   <a href="#">Email Delegation</a>
-                                   <a href="#">Email Tags</a>
+                                   <a href="./email_delegation.html">Email Delegation</a>
+                                   <a href="./email_tags.html">Email Tags</a>
                                    <a href="#">Email Notes</a>
                                    <a href="#">Collision Alerts</a>
                                    <a href="#">Email Templates</a>
@@ -61,8 +61,8 @@ let navbar=()=>{
                                    <br>
                                    <a href="#"><h3>Industries</h3></a>
                                    <a href="#">Logistics</a>
-                                   <a href="#">Real Estate</a>
-                                   <a href="#">Travel</a>
+                                   <a href="./realEstate.html">Real Estate</a>
+                                   <a href="./travel.html">Travel</a>
                                    <a href="#">Manufacturing</a>
                                    <a href="#">Education</a>
                                    <a href="#">Non-profits</a>
@@ -76,8 +76,8 @@ let navbar=()=>{
 
                <!-- customer/pricing -->
 
-               <div class="newbtn">Customers</div>
-               <div class="newbtn">Pricing</div>
+               <div class="newbtn"><a href="./customer.html">Customers</a></div>
+               <div class="newbtn"><a href="./princing.html">Pricing</a></div>
 
                <!-- Resources dropdown -->
 
@@ -128,10 +128,10 @@ let navbar=()=>{
                    </div>
                </div>                          
                
-               <div class="newbtn">Request a Demo</div>
+               <div class="newbtn"><a href="#">Request a Demo</a></div>
            </ul> 
        </div>
-       <div class="dropbtn1">
+       <div class="dropbtn7">
            <button class="hiver-free">GET HIVER FREE</button>
        </div>
    </div>
