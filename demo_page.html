@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/demo_page.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/b055f88b36.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="demo_container">
+      <div id="demo_left">
+        <!-- image slider start -->
+        <div class="demoslider">
+          <div class="demo_slides">
+            <!-- radio buttons start -->
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <!-- radio buttons end -->
+            <!-- slide images start -->
+            <div class="demo_slide first">
+              <div class="demo_profile_cont">
+                <div>
+                  <img
+                    src="https://images.hiverhq.com/images/new-landing-2022/quote.png"
+                    alt=""
+                  />
+                </div>
+                <div id="demo_slide_info">
+                  <h3>
+                    We're 100% Gmail. Working on customer queries from Gmail was
+                    exactly what we needed. Moreover, moving to Hiver was a
+                    painless affair.
+                  </h3>
+                  <img
+                    src="https://images.hiverhq.com/images/new-landing-2022/demo/scott.png"
+                    alt=""
+                  />
+                  <p>Scott Gellatly</p>
+                  <p>General Manager, itGenius</p>
+                  <img
+                    src="https://images.hiverhq.com/images/new-landing-2022/demo/itgenius.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="demo_slide">
+              <div class="demo_profile_cont">
+                <div>
+                  <img
+                    src="https://images.hiverhq.com/images/new-landing-2022/quote.png"
+                    alt=""
+                  />
+                </div>
+                <div id="demo_slide_info">
+                  <h3>
+                    We typically aim to respond within 4 business hours. With
+                    Hiver, I always know if we’re handling incoming customer
+                    queries efficiently.
+                  </h3>
+                  <img
+                    src="https://images.hiverhq.com/images/signup2021/bartek-marczak.png"
+                    alt=""
+                  />
+                  <p>Bartek Marczak</p>
+                  <p>Operations Manager, BNI Alberta South</p>
+                  <img
+                    src="https://images.hiverhq.com/images/new-landing-2022/demo/bni.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="demo_slide">
+              <div class="demo_profile_cont">
+                <div>
+                  <img
+                    src="https://images.hiverhq.com/images/new-landing-2022/quote.png"
+                    alt=""
+                  />
+                </div>
+                <div id="demo_slide_info">
+                  <h3>
+                    We found Zendesk to be clunky. Hiver is very convenient. We
+                    regularly meet SLAs and no longer need to switch accounts to
+                    manage emails.
+                  </h3>
+                  <img
+                    src="https://images.hiverhq.com/images/signup2021/michelle-reznick.png"
+                    alt=""
+                  />
+                  <p>Michelle Reznick</p>
+                  <p>Billing and Collections Team Leader, AppsFlyer</p>
+                  <img
+                    src="https://images.hiverhq.com/images/new-landing-2022/demo/appsflyer.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- slide images end -->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+          </div>
+          <!--manual navigation start-->
+          <div class="demo_navigation-manual">
+            <label for="radio1" class="demo_manual-btn"></label>
+            <label for="radio2" class="demo_manual-btn"></label>
+            <label for="radio3" class="demo_manual-btn"></label>
+          </div>
+          <!--manual navigation end-->
+        </div>
+        <!-- image slider end -->
+        <div id="demo_company_logo">
+          <div>
+            <img
+              src="https://images.hiverhq.com/images/new-homepage/nyu_1.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.hiverhq.com/images/new-homepage/funding-circle-1.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.hiverhq.com/images/priority-support/kiwi.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.hiverhq.com/images/new-landing-2022/homepage/samsara-logo.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.hiverhq.com/images/new-homepage/pluralsight_1.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://images.hiverhq.com/images/priority-support/flexport-2.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div id="demo_right">
+        <div class="demo_signup">
+          <a href="./index.html"
+            ><img
+              src="https://images.hiverhq.com/images/new-landing-2022/demo/hiverLogo.svg"
+              alt=""
+          /></a>
+          <form onsubmit="signupform()" id="demo_form">
+            <h2>Get an in-depth walkthrough of Hiver</h2>
+            <p>
+              Connect 1:1 with one of our customer champions to see how Hiver
+              suits your unique needs.
+            </p>
+            <label for="">Name*</label><br />
+            <input
+              type="text"
+              name="uname"
+              id="uname"
+              placeholder="Enter Username"
+              required
+            /><br />
+            <label for="">Phone Number*</label><br />
+            <div id="Phone_contain">
+              <select name="" id="demo_country_select">
+                <option value="">India(भारत)</option>
+                <option value="">Japan</option>
+                <option value="">Haiti</option>
+                <option value="">Guyana</option>
+                <option value="">China</option>
+              </select>
+
+              <input
+                type="number"
+                name="number"
+                id="number"
+                placeholder="Enter Phone Number"
+                required
+              />
+            </div>
+            <br />
+            <label for="">Business Email *</label><br />
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="john@companyname.com"
+              required
+            /><br />
+            <input type="submit" value="SCHEDULE MY DEMO" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------------------->
+
+    <div id="demo_footer">
+      <div class="demo_fotter-address">
+        <div>
+          <img
+            src="https://images.hiverhq.com/images/new-landing-2022/best_software_award.svg"
+            alt=""
+          />
+          <img
+            src="https://images.hiverhq.com/images/new-homepage/users-love-us.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="subpart_logo">
+          <div class="demo_sub-image">
+            <img
+              src="https://images.hiverhq.com/images/new-landing-2022/gdpr.svg"
+              alt=""
+            />
+            <img
+              src="https://images.hiverhq.com/images/new-landing-2022/ccpa.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>support@hiverhq.com</p>
+            <div class="demo_social-logo">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="demo_footer-policy">
+        <div>
+          <img
+            src="https://images.hiverhq.com/images/new-landing-2022/cloud_partner@2x.webp"
+            alt=""
+            height="30px"
+          />
+        </div>
+        <div class="demo_footerPolicy_mid">
+          <div>
+            <p>Terms of Services</p>
+          </div>
+          <div>
+            <p>Privacy Policy</p>
+          </div>
+          <div>
+            <p>Vulnerability Disclosure</p>
+          </div>
+          <div>
+            <p>Copyright Claims</p>
+          </div>
+          <div>
+            <p>Security</p>
+          </div>
+        </div>
+
+        <div>
+          <p>© 2022 Hiver. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./script/demo.js
+"></script>
