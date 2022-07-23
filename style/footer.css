@@ -16,7 +16,7 @@
     height: 100px;
     width: 82%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .sub-image{
     display: flex;
@@ -27,16 +27,24 @@
     gap: 40px;
 }
 .footer-container{
+    /* border: 1px solid red; */
     display: flex;
-    justify-content: space-between;
-    width: 82%;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    padding-left: 5%;
+    /* padding-right: 5%; */
     margin: auto;
     margin-top: 30px;
     height: 400px;
     color: rgb(145,152,191);
 }
+h3{
+    font-size: 16px;
+    color: rgb(190,198,238);
+}
 .footer-container div li{
-   line-height: 43px;
+    
+   line-height: 40px;
    list-style: none;
    
 }

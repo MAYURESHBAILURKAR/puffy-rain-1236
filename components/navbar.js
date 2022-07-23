@@ -132,7 +132,7 @@ let navbar=()=>{
            </ul> 
        </div>
        <div class="dropbtn1">
-           <button>GET HIVER FREE</button>
+           <button class="hiver-free">GET HIVER FREE</button>
        </div>
    </div>
 </div>`;

@@ -29,13 +29,16 @@ ul,li{
 .hero-heading img{
     margin-bottom: -10px;
 }
+.hero-input{
+    margin-bottom: 5%;
+}
 .hero-input span{
     border: 1px solid #121127;
     font-size: 16px;
     font-weight: 800;
     background-color: #121127;
     color: white;
-    padding: 16px 20px 19px 30px;
+    padding: 19px 20px 19px 30px;
     margin-left: -10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -159,6 +162,7 @@ ul,li{
 }
 
 .inner-bottom{
+   
     margin: 20px 83px;
     height: 100px;
 } 
@@ -169,7 +173,7 @@ ul,li{
     list-style: none;
 }
 .inner-bottom li{
-    padding: 40px;
+    margin-top: 40px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -234,9 +238,10 @@ ul,li{
     color: white;
 }
 .polygon-block{
-    margin:0 83px;
+    margin: 0px 83px ;
+    padding-top: 100px;
     display: flex;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     /* height: 1300px; */
 } 
 .villian-text{
@@ -278,23 +283,19 @@ color: white;
     color: rgb(13,19,51);
 }
 
-/* body {
-  background: #3e3e3e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-} */
 
 /*************Carousel******************/
-/* 
+
 .carousel {
-  width: 80vw;
-  height: 250px;
+/* border: 1px solid red; */
+
+  /* width: 93%; */
+  margin: 0% 6%;
+  height: 550px;
   border-radius: 3px;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); */
   
 }
 .carousel:hover .controls {
@@ -344,6 +345,36 @@ color: white;
         min-width: 100%;
         min-height: 250px;
         height: auto;
+        /* padding: 0% 5%; */
       }
-     */
+
+      .carousel-contain {
+    display: flex;
+    margin: auto;
+    /* width: 83%; */
+}
+
+.carousel-logo{
+    margin-bottom: 45px;
+}
+.line1{
+    font-size: 28px;
+    line-height: 45px;
+    color: #201F37;
+}
+.line2{
+    font-size: 21px;
+    color: #201F37;
+}
+.carousel-data h3{
+    font-size: 24px;
+}
+.case{
+    color: blue;
+    margin-top: 50px;
+}
+.case:hover{
+    color: #201F37;
+}
+     
 

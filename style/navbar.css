@@ -31,6 +31,12 @@
 }
 .newbtn:hover{
   color: gray;
+  cursor: pointer;
+}
+.hiver-free:hover{
+  /* background-color: gray; */
+  cursor: pointer;
+  opacity: 80%;
 }
 .dropbtn1{
   height: 100%;
