@@ -7,9 +7,9 @@ let navbar=()=>{
        
 
            <!-- product dropdown -->
-
+        
                <div class="dropdown">
-                   <div class="dropbtn2">Product</div>
+                   <div class="dropbtn2">Product  </div>
                    <div class="dropdown-content">
                        <div class="dropSub">
                            <div class="prodCol1">
