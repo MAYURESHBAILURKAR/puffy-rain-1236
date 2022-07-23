@@ -76,7 +76,7 @@ let navbar=()=>{
 
                <!-- customer/pricing -->
 
-               <div class="newbtn">Customers</div>
+               <div class="newbtn"><a href="./customer.html">Customers</a></div>
                <div class="newbtn"><a href="./princing.html">Pricing</a></div>
 
                <!-- Resources dropdown -->
