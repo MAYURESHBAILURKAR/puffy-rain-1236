@@ -24,12 +24,28 @@
     background-color: white;
 }
 /* Dropdown Button */
-.newbtn {   
+.newbtn a{  
+  color: black;
+  text-decoration: none; 
   font-size: 16px;
   margin-right: 60px;
   display: flex;
 }
+.newbtn a:hover{
+  color: gray;
+  cursor: pointer;
+}
+.hiver-free:hover{
+  /* background-color: gray; */
+  cursor: pointer;
+  opacity: 80%;
+}
 .dropbtn1{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.dropbtn7{
   height: 100%;
   display: flex;
   align-items: center;
@@ -106,8 +122,14 @@ li{
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {color: black;}
+  .dropdown-content a:hover {
+    color: black;
+    cursor: pointer;
+  }
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+  }
   

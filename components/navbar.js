@@ -2,14 +2,14 @@ let navbar=()=>{
    return `
    <div class="container">
     <div class="navbar">
-       <div class="dropbtn1"><img src="https://images.hiverhq.com/images/hiver-logo/hiverBlackLogo.svg" height="70%" width="80%" alt=""></div>
+       <div class="dropbtn1"><a href="./index.html"><img src="https://images.hiverhq.com/images/hiver-logo/hiverBlackLogo.svg" height="70%" width="80%" alt=""></a></div>
        <div class="main-category">
        
 
            <!-- product dropdown -->
-
+        
                <div class="dropdown">
-                   <div class="dropbtn2">Product</div>
+                   <div class="dropbtn2">Product  </div>
                    <div class="dropdown-content">
                        <div class="dropSub">
                            <div class="prodCol1">
@@ -88,8 +88,8 @@ let navbar=()=>{
                            <div class="prodCol1">
                                <ul>
                                    <a href="#"><h3>Blogs</h3></a>
-                                   <a href="./customer-support.html">How to Build and Organize Customer Support Teams</a>
-                                   <a href="./updat-hiver-contact.html">Hiver Updates: Know your customers better with Hiver Contacts</a>
+                                   <a href="#">How to Build and Organize Customer Support Teams</a>
+                                   <a href="#">Hiver Updates: Know your customers better with Hiver Contacts</a>
                                    <a href="#">The Complete Guide to Customer Communication(+Examples and Best Practices)</a>
                                    <a href="#">How User-Generated Content Impacts Customer Engagement</a>
                                    <a href="#">10 Ways to Build a Successful Customer Experience(cx) Strategy</a>
@@ -128,11 +128,11 @@ let navbar=()=>{
                    </div>
                </div>                          
                
-               <div class="newbtn">Request a Demo</div>
+               <div class="newbtn"><a href="#">Request a Demo</a></div>
            </ul> 
        </div>
-       <div class="dropbtn1">
-           <button>GET HIVER FREE</button>
+       <div class="dropbtn7">
+           <button class="hiver-free">GET HIVER FREE</button>
        </div>
    </div>
 </div>`;
