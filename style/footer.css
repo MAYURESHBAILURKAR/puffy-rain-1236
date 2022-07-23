@@ -29,7 +29,7 @@
 .footer-container{
     /* border: 1px solid red; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     /* width: 100%; */
     padding-left: 5%;
     /* padding-right: 5%; */
@@ -38,7 +38,7 @@
     height: 400px;
     color: rgb(145,152,191);
 }
-h3{
+.footer-container>div>ul>li>h3{
     font-size: 16px;
     color: rgb(190,198,238);
 }

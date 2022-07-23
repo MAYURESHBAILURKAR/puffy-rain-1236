@@ -88,8 +88,8 @@ let navbar=()=>{
                            <div class="prodCol1">
                                <ul>
                                    <a href="#"><h3>Blogs</h3></a>
-                                   <a href="#">How to Build and Organize Customer Support Teams</a>
-                                   <a href="#">Hiver Updates: Know your customers better with Hiver Contacts</a>
+                                   <a href="./customer-support.html">How to Build and Organize Customer Support Teams</a>
+                                   <a href="./updat-hiver-contact.html">Hiver Updates: Know your customers better with Hiver Contacts</a>
                                    <a href="#">The Complete Guide to Customer Communication(+Examples and Best Practices)</a>
                                    <a href="#">How User-Generated Content Impacts Customer Engagement</a>
                                    <a href="#">10 Ways to Build a Successful Customer Experience(cx) Strategy</a>
