@@ -128,7 +128,7 @@ let navbar=()=>{
                    </div>
                </div>                          
                
-               <div class="newbtn"><a href="#">Request a Demo</a></div>
+               <div class="newbtn"><a href="./demo_page.html">Request a Demo</a></div>
            </ul> 
        </div>
        <div class="dropbtn7">
