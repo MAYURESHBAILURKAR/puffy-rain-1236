@@ -1,0 +1,342 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#demo_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* border: thin red solid; */
+}
+
+#demo_left {
+  /* border: thin red solid; */
+  position: relative;
+  overflow: hidden;
+}
+
+#demo_left::before {
+  background: linear-gradient(
+    280deg,
+    rgba(255, 153, 0, 0.3) 0,
+    rgba(255, 233, 201, 0.3) 50%,
+    rgba(255, 238, 177, 0.3) 100%
+  );
+  width: 100%;
+  content: "";
+  /* transform: rotate(90deg); */
+  height: 100%;
+  position: absolute;
+  z-index: -5;
+  filter: blur(80px);
+  /* left: 900px; */
+}
+
+#demo_form {
+  box-sizing: border-box;
+  width: 55%;
+  margin: auto;
+  /* border: 1px solid red; */
+  padding: 45px;
+
+  border-radius: 8px;
+  font-family: "Lato", sans-serif;
+}
+
+#demo_form > h2 {
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#demo_form label {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: -10px;
+  font-weight: 600;
+  color: #414670;
+  /* border: 1px solid red; */
+}
+
+#demo_form input {
+  width: 95%;
+  border: 1px solid rgb(65, 65, 65);
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #f5f5f8;
+}
+
+#demo_form > input[type="submit"] {
+  width: 100%;
+  border: 1px solid transparent;
+  margin: auto;
+  margin-top: 45px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 35px;
+  background-color: #131129;
+  font-weight: 900;
+}
+#demo_form > input[type="submit"]:hover {
+  background-color: #5647ff;
+  color: white;
+}
+
+#Phone_contain {
+  display: flex;
+  color: #974b63;
+}
+
+#demo_country_select {
+  width: 40%;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+#demo_form > p {
+  text-align: center;
+  font: 15px;
+}
+
+.demo_signup > a > img {
+  display: block;
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 60px;
+}
+
+#demo_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background: #23E3C9; */
+  /* border: 1px solid blue; */
+  font-family: "Lato", sans-serif;
+}
+
+.demo_profile_cont > div:nth-child(1) > img {
+  /* border: 1px red solid; */
+  margin-bottom: 15px;
+}
+
+#demo_slide_info > h3 {
+  width: 50%;
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 22px;
+}
+
+#demo_slide_info > img:nth-child(2) {
+  margin-top: 30px;
+  /* border: 1px red solid; */
+  margin-bottom: 10px;
+}
+
+#demo_slide_info > p:nth-child(3) {
+  font-weight: 700;
+  line-height: 40px;
+  font-size: 18px;
+  /* border: 1px red solid; */
+}
+
+#demo_slide_info > p:nth-child(4) {
+  line-height: 40px;
+  font-size: 15px;
+  /* border: 1px red solid; */
+  color: #636175;
+  margin-top: -20px;
+  margin-bottom: 25px;
+}
+#demo_slide_info > img:nth-child(5) {
+  /* border: 1px red solid; */
+  margin-bottom: 30px;
+}
+
+.demoslider {
+  width: 80%;
+  margin-top: 100px;
+  /* border: 1px red solid; */
+  margin-left: 10%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.demo_slides {
+  width: 500%;
+  height: 580px;
+  display: flex;
+}
+
+.demo_slides input {
+  display: none;
+}
+
+.demo_slide {
+  width: 20%;
+  transition: 2s;
+}
+
+/* .slide img{
+    width: 800px;
+    height: 500px;
+  } */
+
+/*css for manual slide navigation*/
+
+.demo_navigation-manual {
+  position: absolute;
+  /* width: 800px; */
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.demo_manual-btn {
+  border: 2px solid #ff967c;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.demo_manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.demo_manual-btn:hover {
+  background: #ffe07c;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+#demo_company_logo {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  /* border: thin rgb(255, 0, 0) solid; */
+  margin-left: 10%;
+  margin-top: 50px;
+}
+#demo_company_logo > div {
+  display: flex;
+  justify-content: space-between;
+  width: 9%;
+}
+#demo_company_logo > div img {
+  width: 100%;
+  border-radius: 10px;
+  /* border: thin rgb(255, 0, 0) solid; */
+  padding: 8px 2px;
+}
+
+.demo_fotter-address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 150px;
+  padding: 0 40px;
+  color: rgb(64, 68, 107);
+  /* border: thin solid red; */
+  background-color: #201f37;
+}
+.demo_social-logo {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+  color: rgb(255, 211, 1);
+  /* border: thin solid red; */
+}
+
+.demo_footer-policy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 30px 40px;
+  background-color: #121127;
+  color: rgb(64, 68, 107);
+}
+
+.demo_footerPolicy_mid {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  /* border: thin solid red; */
+}
+
+.demo_sub-image {
+  display: flex;
+  height: 50%;
+  justify-content: space-between;
+  width: 40%;
+  /* border: thin solid red; */
+}
+/* .demo_sub-image >img{
+    width: 50%;
+} */
+.subpart_logo {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: thin solid red; */
+}
+
+/*css for automatic navigation*/
+
+/* .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+  } */
