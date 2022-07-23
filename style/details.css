@@ -1,0 +1,171 @@
+#main{
+    background: url(https://images.hiverhq.com/wp-content/uploads/2020/04/tr:pr-true/flexport-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 514px;
+}
+
+ .topbox {
+  width: 500px;
+    background-color: rgb(18, 144, 190);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+#tophead{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#tophead>.logi{
+color: yellow;
+}
+#p{
+    margin-top: 20px;
+    margin-left:-18%;
+}
+ .metrics_outer {
+    background-color: #545876;
+    height: 250px;
+    padding-bottom: 0;
+    /* padding-top: 120px; */
+    width: 100%;
+}
+.metrics_head {
+    background-color: #404575;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    padding: 0 20px ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.metrics_head h1{
+    color: #c2c7ee;
+    font-size: 55px;
+}
+.metrics_head h3{
+    font-size: 30px;
+}
+
+#hour{
+    display: flex;
+    color: white;
+    margin-left: 20%;
+}
+#num h1{
+color: rgb(11, 204, 204);
+padding:0px 20px;
+}
+
+#num{
+width: 30%;
+display: flex;
+}
+#para h3,#para2 h3, #para3 h3{
+    color: #545876;
+    font-family: Lato;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.88;
+    margin-bottom: 1rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: Poppins,sans-serif!important;
+    box-sizing: border-box;
+    font-family: Lato,sans-serif;
+    
+}
+#para , #para2, #para3, #para4{
+    width: 45%;
+    margin: auto;
+}
+#para2 h1,#para3 h1,#para4 h1{
+   font-size: 22px;
+    color: #4b4c4f;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
+#last{
+    background-color: #cbcbce;
+    padding: 30px;
+    display: flex;
+}
+#chota{
+    width: 40%;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+#chota h3,h2,h4,p{
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 0 0 100px;
+}
+#chota h4{
+   color: rgb(5, 146, 146);
+}
+#chota p{
+    width: 50%;
+    
+ }
+#imgf{
+ width: 1000px;
+margin-top: -500px;
+
+ }
+
+ #comb{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-weight: bold;
+    width: 60%;
+    margin: auto;
+    
+ }
+ 
+ #free{
+    width: 150px;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+ 
+ }
+ #work{
+    width: 150px;
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  
+ }
+ 
+#free:hover,#work:hover{
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.03);
+}
+#space{
+    height: 70px;
+}
+
+
+
