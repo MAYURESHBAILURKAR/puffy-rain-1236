@@ -7,9 +7,6 @@ This is the clone of Hiver (https://hiverhq.com). We started this project as a 5
 ## About Hiver
  Hiver provides simplified email collaboration for teams  we have to use thier extention which keep tracks of all the important emails and keep a sorted track of all the emails.
 
-## Netlify Link🌟
-https://rainbow-churros-cbb8c1.netlify.app
-
 ## Frameworks Used 🌟
 <li>HTML</li>
 <li>CSS</li>
